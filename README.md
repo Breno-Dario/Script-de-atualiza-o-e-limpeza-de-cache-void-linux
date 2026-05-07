@@ -36,7 +36,7 @@ O script executa as seguinte estapas:
 ```nano
    echo "Atualizando repositório..."
 ```
-4. Quarto adicioar comando do próprio void como atualizar
+4. Quarto adicionar comando do próprio void como atualizar
 
 ```nano
   sudo xbps-install -S
