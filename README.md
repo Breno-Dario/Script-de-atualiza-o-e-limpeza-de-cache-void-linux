@@ -1,3 +1,6 @@
+<img align="left" width="100" height="100" hspace="15" alt="void-linux" src="https://github.com/user-attachments/assets/c9e7249e-090c-495c-8a04-01d5508e593d" />
+
+
 # Script de atualização e limpeza de cache (Void Linux)
 ![Shell](https://img.shields.io/badge/Shell-✔️-red)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
