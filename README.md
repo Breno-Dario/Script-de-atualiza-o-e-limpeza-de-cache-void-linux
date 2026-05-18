@@ -47,28 +47,23 @@ O script executa as seguinte estapas:
 
  ## Script completo: 
  ```nano
-#!/bin/bash
-
 echo "Atualizando reposítorios.1.2.3..."
 sudo xbps-install -S
-echo "✔Success"
+echo -e "✔Succes\n"
 
 echo "Atualizando sistema.1.2.3..."
 sudo xbps-install -Suv -y
-echo "✔Success"
+echo -e "✔Success\n"
 
+echo "Atualizando reposítorio flatpak"
+flatpak update -y
+echo -e "✔Success\n"
 
-echo "Limpando cache..."
-sudo xbps-remove -O
-echo "✔Success"
+echo "Limpeza de sistema pós-atualizações"
+sudo xbps-remove -Oo -y
+echo -e "✔Success\n"
 
-
-echo "Removendo dependência não utilizadas..."
-sudo xbps-remove -o -y
-echo "✔Success"
-
-
-echo "Sistema limpo e atualizado!!"
+echo -e "ATUALIZADO VOID LINUX!!\n"
 ```
 ## 🛠️ Execução
 
